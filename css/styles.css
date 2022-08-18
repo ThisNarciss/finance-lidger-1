@@ -40,6 +40,10 @@ button {
   font-family: inherit;
 }
 
+img {
+  display: block;
+}
+
 .accent {
   color: var(--accent-color);
 }
