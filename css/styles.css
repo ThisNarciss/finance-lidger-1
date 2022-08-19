@@ -48,7 +48,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Navigation */
+/* ======= Navigation ====== */
 
 .nav {
   background-color: var(--first-text-color);
@@ -84,3 +84,54 @@ img {
   line-height: 1.67;
   text-align: center;
 }
+
+/* ======= Navigation ====== */
+
+/* ====== Section 2 ====== */
+
+/* ====== Section 2 ====== */
+
+/* ====== Section 3 ====== */
+
+.why-us {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+}
+.why-us .title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.why-us .title-small {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+.button-read-more {
+  background-color: var(--accent-color);
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--second-text-color);
+}
+
+/* ====== Section 3 ====== */
+
+/* ====== Section 4 ====== */
+
+/* ====== Section 4 ====== */
+
+/* ====== Section 5 ====== */
+
+/* ====== Section 5 ====== */
+
+/* ====== Section 6 ====== */
+
+/* ====== Section 6 ====== */
+
+/* ====== Section 7 ====== */
+
+/* ====== Section 7 ====== */
+
+/* ====== Footer ====== */
+
+/* ====== Footer ====== */
