@@ -49,31 +49,32 @@
         <div class="hero-content">
           <h1 class="hero-title">The sky is the limit</h1>
           <p class="hero-text">We provide world class financial assistance</p>
-          <button type="button" class="hero-btn">Read More</button>
+          <button type="button" class="hero-btn"><svg width="8" height="12"><use href="./images/icons.svg#icon-angle-right">
+          </use></svg> Read More</button>
         </div></div>
         
       </section>
 
       <!-- Section 2 -->
 
-      <section id="about" class="about">
+      <section class="about container">
         <h2 class="visually-hidden">About</h2>
-        <ul>
-          <li>
+        <ul class="about-list">
+          <li class="about-list-element">
             <h3 class="about-item">Investmant Banking</h3>
             <p class="about-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consequatur, necessitatibus!
             </p>
           </li>
-          <li>
+          <li class="about-list-element">
             <h3 class="about-item">Portfolio Manager</h3>
             <p class="about-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consequatur, necessitatibus!
             </p>
           </li>
-          <li>
+          <li class="about-list-element">
             <h3 class="about-item">Tax & Custudio</h3>
             <p class="about-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -82,6 +83,7 @@
           </li>
         </ul>
       </section>
+
 
       <!-- Section 3 -->
 
@@ -222,33 +224,62 @@
 
       <!-- Section 7 Callback -->
 
-      <section id="contact">
-        <h2 class="visually-hidden">call back</h2>
-        <img src="./images/contact-img.jpg" alt="man with phone" />
-        <div class="form-callback">
-          <p class="action">Request Callback</p>
-          <form action=""></form>
-          <button type="button" class="confirm-form-send">Send</button>
+      <section id="contact" class="call-back">
+        <div class="container call-back-form">
+          <h2 class="visually-hidden">call back</h2>
+          <img
+            src="./images/contact-img.jpg"
+            alt="man with phone"
+            width="680"
+          />
+          <div class="form-callback">
+            <p class="action">Request Callback</p>
+            <ul class="form-input">
+              <li class="form-input-par">Enter your name</li>
+              <li class="form-input-par">Enter email*</li>
+            </ul>
+            <form action=""></form>
+            <button type="button" class="confirm-form-send">Send</button>
+          </div>
         </div>
       </section>
+
     </main>
     <!-- Footer -->
 
     <footer class="footer-box">
-      <ul class="footer-list">
-        <li class="list-item">
-          <a class="icon-name" href="https://uk-ua.facebook.com/%22%3Efacebook">facebook</a>
-        </li>
-        <li class="list-item">
-          <a class="icon-name" href="https://twitter.com/?lang=ru%22%3ETwitter">twitter</a>
-        </li>
-        <li class="list-item">
-          <a class="icon-name" href="https://www.youtube.com/%22%3EYoutube">youtube</a>
-        </li>
-        <li class="list-item">
-          <a class="icon-name" href="https://www.linkedin.com/%22%3ELinkedin">linkedin</a>
-        </li>
-      </ul>
+      <div class="footer-list-icon-box">
+        <ul class="footer-list">
+          <li class="list-item">
+            <a class="icon-name" href="https://uk-ua.facebook.com/%22%3Efacebook%22%3E">
+              <svg class="footer-social-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="icon-name" href="https://twitter.com/?lang=ru%22%3ETwitter%22%3E">
+              <svg class="footer-social-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="icon-name" href="https://www.youtube.com/%22%3EYoutube%22%3E">
+              <svg class="footer-social-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="icon-name" href="https://www.linkedin.com/%22%3ELinkedin%22%3E">
+              <svg class="footer-social-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
       <h3 class="footer-coprt">Copyright &copy; 2021 - Finance Ledger</h3>
     </footer>
   </body>
