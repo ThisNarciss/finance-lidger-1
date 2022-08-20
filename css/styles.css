@@ -74,8 +74,25 @@ img {
 
 /* ======= Navigation ====== */
 
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-nav-list {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
 .nav {
   background-color: var(--first-text-color);
+  background-image: url("../images/hero-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1360px;
+
+  padding-top: 20px;
+  padding-bottom: 284px;
 }
 
 .logo {
@@ -100,6 +117,8 @@ img {
   font-size: 55px;
   line-height: 1.2;
   text-transform: capitalize;
+
+  margin-top: 225px;
 }
 
 .hero-text {
@@ -213,14 +232,6 @@ img {
 
 .cases-list-item {
   flex-basis: calc((1360px-24px) / 4);
-}
-
-.container {
-  width: 1416px;
-  padding-left: 28px;
-  padding-right: 28px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* ====== Section 4 ====== */
