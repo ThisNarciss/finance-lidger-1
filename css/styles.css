@@ -102,6 +102,11 @@ img {
   text-transform: capitalize;
 }
 
+.header-page {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 .site-nav-link {
   color: var(--second-text-color);
 }
@@ -109,6 +114,8 @@ img {
 .hero-content {
   display: block;
   text-align: center;
+
+  padding-top: 225px;
 }
 
 .hero-title {
@@ -118,7 +125,6 @@ img {
   line-height: 1.2;
   text-transform: capitalize;
 
-  margin-top: 225px;
   margin-bottom: 25px;
 }
 
