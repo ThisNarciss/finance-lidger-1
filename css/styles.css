@@ -316,24 +316,19 @@ img {
 
 /* ====== Footer ====== */
 
-.footer {
-  background-color: var(--footer-bgc);
-  text-align: center;
-  padding-top: 20px;
+.footer-box {
+  background-color: #333333;
 }
+.icon-name {
+}
+.footer-coprt,
 .footer-list {
-  color: var(--second-text-color);
-}
-.footer-list-item {
-}
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
-}
-.footer-copyright {
-  color: var(--second-text-color);
+  font-family: "Open Sans";
+  font-weight: 400;
   font-size: 18px;
-  line-height: 1, 55;
+  line-height: 28px;
+  text-align: center;
+  color: var(--first-bgc);
 }
 
 /* ====== Footer ====== */
