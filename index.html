@@ -11,7 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -19,40 +25,45 @@
       <!-- Navigation -->
 
       <section class="section nav">
-        <div class="container"><header class="header-page">
-          <nav class="site-nav">
-            <a href="./index.html" class="logo"
-              ><svg class="logotype" width="40" height="30">
-                <use href="./images/icons.svg#icon-logotype"></use>
+        <div class="container">
+          <header class="header-page">
+            <nav class="site-nav">
+              <a href="./index.html" class="logo"
+                ><svg class="logotype" width="40" height="30">
+                  <use href="./images/icons.svg#icon-logotype"></use>
+                </svg>
+                <span class="accent">Finance</span> ledger</a
+              >
+              <ul class="site-nav-list">
+                <li class="site-nav-item">
+                  <a href="#home" class="site-nav-link">Home</a>
+                </li>
+                <li class="site-nav-item">
+                  <a href="#about" class="site-nav-link">About</a>
+                </li>
+                <li class="site-nav-item">
+                  <a href="#cases" class="site-nav-link">Cases</a>
+                </li>
+                <li class="site-nav-item">
+                  <a href="#blog" class="site-nav-link">Blog</a>
+                </li>
+                <li class="site-nav-item">
+                  <a href="#contact" class="site-nav-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <div class="hero-content">
+            <h1 class="hero-title">The sky is the limit</h1>
+            <p class="hero-text">We provide world class financial assistance</p>
+            <button type="button" class="hero-btn">
+              <svg width="8" height="12">
+                <use href="./images/icons.svg#icon-angle-right"></use>
               </svg>
-              <span class="accent">Finance</span> ledger</a
-            >
-            <ul class="site-nav-list">
-              <li class="site-nav-item">
-                <a href="#home" class="site-nav-link">Home</a>
-              </li>
-              <li class="site-nav-item">
-                <a href="#about" class="site-nav-link">About</a>
-              </li>
-              <li class="site-nav-item">
-                <a href="#cases" class="site-nav-link">Cases</a>
-              </li>
-              <li class="site-nav-item">
-                <a href="#blog" class="site-nav-link">Blog</a>
-              </li>
-              <li class="site-nav-item">
-                <a href="#contact" class="site-nav-link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <div class="hero-content">
-          <h1 class="hero-title">The sky is the limit</h1>
-          <p class="hero-text">We provide world class financial assistance</p>
-          <button type="button" class="hero-btn"><svg width="8" height="12"><use href="./images/icons.svg#icon-angle-right">
-          </use></svg> Read More</button>
-        </div></div>
-        
+              Read More
+            </button>
+          </div>
+        </div>
       </section>
 
       <!-- Section 2 -->
@@ -83,7 +94,6 @@
           </li>
         </ul>
       </section>
-
 
       <!-- Section 3 -->
 
@@ -120,11 +130,7 @@
           </p>
           <ul class="cases-list">
             <li class="cases-list-item">
-              <img
-                src="./images/cases-1.jpg"
-                alt="consultation"
-                width="320"
-              />
+              <img src="./images/cases-1.jpg" alt="consultation" width="320" />
             </li>
             <li class="cases-list-item">
               <img src="./images/cases-2.jpg" alt="analysis" width="320" />
@@ -139,11 +145,7 @@
               <img src="./images/cases-5.jpg" alt="Mac_girl" width="320" />
             </li>
             <li class="cases-list-item">
-              <img
-                src="./images/cases-6.jpg"
-                alt="skyscrapers"
-                width="320"
-              />
+              <img src="./images/cases-6.jpg" alt="skyscrapers" width="320" />
             </li>
             <li class="cases-list-item">
               <img
@@ -153,11 +155,7 @@
               />
             </li>
             <li class="cases-list-item">
-              <img
-                src="./images/cases-8.jpg"
-                alt="smiling_woman"
-                width="320"
-              />
+              <img src="./images/cases-8.jpg" alt="smiling_woman" width="320" />
             </li>
           </ul>
         </div>
@@ -166,26 +164,32 @@
       <!-- Section 5 -->
 
       <section class="post">
-        <h2 class="post-title">
-          <span class="post-title-little">April 16 2020</span>Blog post one
-        </h2>
-        <p class="post-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button class="post-btn" type="button">Read our blog</button>
-        <img
-          src="./images/blog-post-img.jpg"
-          alt="a cup of coffee, a tablet, and a notebook on the table"
-          width="680"
-        />
+        <div class="container post-flex">
+          <div class="content-box">
+            <h2 class="post-title">
+              <span class="post-title-little">April 16 2020</span>Blog post one
+            </h2>
+            <p class="post-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button class="post-btn" type="button">Read our blog</button>
+          </div>
+          <div class="images-box">
+            <img
+              src="./images/blog-post-img.jpg"
+              alt="a cup of coffee, a tablet, and a notebook on the table"
+              width="680"
+            />
+          </div>
+        </div>
       </section>
 
       <!-- Section 6 -->
-
-      <h2 id="blog" class="cases-title">
+      <section>
+        <h2 id="blog" class="cases-title">
           <span class="cases-top-title"> >Who we are</span> Our professional
           team
         </h2>
@@ -195,14 +199,22 @@
         </p>
         <ul class="our-team">
           <li class="member-card">
-            <img src="./images/team-john.jpg" alt="Asian in black suit" width="420" />
+            <img
+              src="./images/team-john.jpg"
+              alt="Asian in black suit"
+              width="420"
+            />
             <div class="member-description">
               <h3 class="member-name">John Doe</h3>
               <p class="member-position">President</p>
             </div>
           </li>
           <li class="member-card">
-            <img src="./images/team-jane.jpg" alt="girl in black chair" width="428" />
+            <img
+              src="./images/team-jane.jpg"
+              alt="girl in black chair"
+              width="428"
+            />
             <div class="member-description">
               <h3 class="member-name">Jane Doe</h3>
               <p class="member-position">Vice President</p>
@@ -238,12 +250,11 @@
               <li class="form-input-par">Enter your name</li>
               <li class="form-input-par">Enter email*</li>
             </ul>
-            <form action=""></form>
+            <form action="#"></form>
             <button type="button" class="confirm-form-send">Send</button>
           </div>
         </div>
       </section>
-
     </main>
     <!-- Footer -->
 
@@ -251,28 +262,40 @@
       <div class="footer-list-icon-box">
         <ul class="footer-list">
           <li class="list-item">
-            <a class="icon-name" href="https://uk-ua.facebook.com/%22%3Efacebook%22%3E">
+            <a
+              class="icon-name"
+              href="https://uk-ua.facebook.com/%22%3Efacebook%22%3E"
+            >
               <svg class="footer-social-icon" width="35" height="35">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="list-item">
-            <a class="icon-name" href="https://twitter.com/?lang=ru%22%3ETwitter%22%3E">
+            <a
+              class="icon-name"
+              href="https://twitter.com/?lang=ru%22%3ETwitter%22%3E"
+            >
               <svg class="footer-social-icon" width="35" height="35">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="list-item">
-            <a class="icon-name" href="https://www.youtube.com/%22%3EYoutube%22%3E">
+            <a
+              class="icon-name"
+              href="https://www.youtube.com/%22%3EYoutube%22%3E"
+            >
               <svg class="footer-social-icon" width="35" height="35">
                 <use href="./images/icons.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
           <li class="list-item">
-            <a class="icon-name" href="https://www.linkedin.com/%22%3ELinkedin%22%3E">
+            <a
+              class="icon-name"
+              href="https://www.linkedin.com/%22%3ELinkedin%22%3E"
+            >
               <svg class="footer-social-icon" width="35" height="35">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>

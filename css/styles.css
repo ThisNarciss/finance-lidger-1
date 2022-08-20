@@ -297,7 +297,31 @@ img {
   padding: 10px 30px;
   text-transform: capitalize;
 }
-
+.post-flex {
+  display: flex;
+}
+.content-box {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background-color: #0284d0;
+}
+.post {
+  background-color: #ffffff;
+  color: var(--second-text-color);
+}
+.post-title-little {
+  display: block;
+  margin-bottom: 5px;
+}
+.post-title {
+  margin-bottom: 26px;
+}
+.post-text {
+  margin-bottom: 30px;
+}
+.post-btn {
+  padding: 10px 40px;
+}
 /* ====== Section 5 ====== */
 
 /* ====== Section 6 ====== */
