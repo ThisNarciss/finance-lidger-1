@@ -258,6 +258,31 @@ img {
 
 /* ====== Section 6 ====== */
 
+.our-team {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+.member-description {
+}
+
+.member-card {
+  flex-basis: calc((100% - 30px) / 3);
+}
+
+.member-name {
+  color: var(--first-text-color);
+  text-align: center;
+  font-size: 25px;
+  line-height: 1, 28;
+}
+.member-position {
+  color: var(--first-text-color);
+  text-align: center;
+  font-size: 18px;
+  line-height: 1, 55;
+}
+
 /* ====== Section 6 ====== */
 
 /* ====== Section 7 ====== */
