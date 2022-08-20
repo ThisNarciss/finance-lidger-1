@@ -263,6 +263,10 @@ img {
 /* ====== Section 4 ====== */
 
 /* ====== Section 5 ====== */
+.container.post-flex {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .post {
   background-color: #0284d0;
@@ -301,8 +305,8 @@ img {
   display: flex;
 }
 .content-box {
-  padding-top: 112px;
-  padding-bottom: 112px;
+  padding: 105px 30px;
+
   background-color: #0284d0;
 }
 .post {
