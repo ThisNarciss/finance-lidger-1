@@ -19,6 +19,7 @@ h1,
 h2,
 h3,
 p {
+  font-weight: inherit;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -344,6 +345,36 @@ img {
 
 /* ====== Section 6 ====== */
 
+.team {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.team-top-title {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+
+  margin-bottom: 16px;
+}
+.team-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+
+  margin-bottom: 34px;
+}
+
+.team-text {
+  font-size: 18px;
+  text-align: center;
+
+  margin-bottom: 45px;
+}
+
 .our-team {
   display: flex;
   justify-content: center;
@@ -353,18 +384,57 @@ img {
 .member-card {
   flex-basis: calc((100% - 30px) / 3);
 }
-
+.photo-card {
+  margin-bottom: 12px;
+}
 .member-name {
   color: var(--first-text-color);
   text-align: center;
   font-size: 25px;
-  line-height: 1.28;
+  line-height: 1.27;
+
+  margin-bottom: 12px;
 }
 .member-position {
   color: var(--first-text-color);
   text-align: center;
   font-size: 18px;
-  line-height: 1.55;
+}
+
+.team-social-web {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+
+  opacity: 0;
+
+  transition: opacity 250ms linear;
+}
+
+.thumb:hover .team-social-web,
+.thumb:focus .team-social-web {
+  opacity: 1;
+}
+
+.thumb {
+  position: relative;
+}
+
+.photo-card {
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+
+.thumb:hover .photo-card,
+.thumb:focus .photo-card {
+  transform: scale(1.02);
 }
 
 /* ====== Section 6 ====== */
