@@ -139,13 +139,39 @@ img {
 }
 
 .hero-btn {
+  position: relative;
   color: var(--second-text-color);
   background-color: var(--accent-color);
   font-size: 18px;
   line-height: 1.56;
 
+  fill: currentColor;
+  overflow: hidden;
+  transition: background-color 250ms linear;
+
   border-radius: 5px;
   padding: 10px 30px;
+}
+
+.hero-btn-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transition: transform 250ms linear;
+
+  transform: translateY(-50%) scale(0.1);
+  opacity: 0;
+}
+
+.hero-btn:hover .hero-btn-icon,
+.hero-btn:focus .hero-btn-icon {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #22913c;
 }
 /* ======= Navigation ====== */
 
