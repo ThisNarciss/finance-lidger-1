@@ -116,22 +116,24 @@
       <!-- Section 3 -->
 
       <section class="section why-us">
-        <h2 class="title">
-          <span class="title-small">What you are looking for</span>We provide
-          bespoke solutions
-        </h2>
-        <p class="text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button" class="button-read-more">Read more</button>
-        <img
-          src="./images/post-img.jpg"
-          alt="Photo of command Finance Ledger"
-          width="680"
-        />
+        <div class="why-us-container">
+          <img
+            src=" ./images/post-img.jpg"
+            alt="Photo of command Finance Ledger"
+            width="680"
+          />
+          <div class="why-us-text-box">
+            <p class="why-us-befor-title">What you are looking for</p>
+            <h2 class="title why-us-titel">We provide bespoke solutions</h2>
+            <p class="text why-us-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button type="button" class="button-read-more">Read more</button>
+          </div>
+        </div>
       </section>
 
       <!-- Section 4 -->
@@ -383,20 +385,40 @@
 
       <section id="contact" class="call-back">
         <div class="container call-back-form">
-          <h2 class="visually-hidden">call back</h2>
           <img
             src="./images/contact-img.jpg"
             alt="man with phone"
             width="680"
           />
           <div class="form-callback">
-            <p class="action">Request Callback</p>
-            <ul class="form-input">
-              <li class="form-input-par">Enter your name</li>
-              <li class="form-input-par">Enter email*</li>
-            </ul>
-            <form action="#"></form>
-            <button type="button" class="confirm-form-send">Send</button>
+            <p class="form-callback-text">Request Callback</p>
+            <form>
+              <div class="form-callback-input-box">
+                <label for="user-name">
+                  <input
+                    class="form-callback-input"
+                    id="user-name"
+                    name="user-name"
+                    type="text"
+                    minlength="3"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </label>
+                <label for="user-email">
+                  <input
+                    class="form-callback-input"
+                    id="user-email"
+                    name="user-email"
+                    type="email"
+                    minlength="3"
+                    placeholder="Enter email*"
+                    required
+                  />
+                </label>
+              </div>
+              <button type="submit" class="confirm-form-send">Send</button>
+            </form>
           </div>
         </div>
       </section>
